@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87234D8F1C0D4C8C004AB7D7 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87234D8E1C0D4C8C004AB7D7 /* SearchTableViewController.m */; };
+		873865B71C0CEFCB006A69F4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873865B61C0CEFCB006A69F4 /* SettingsViewController.m */; };
+		873DFE081C139029007D0216 /* mturk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 873DFE071C139029007D0216 /* mturk.jpg */; };
+		873F93CD1C07820C00CA201E /* CMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 873F93CC1C07820C00CA201E /* CMDataManager.m */; };
+		879AAF1A1C0DE3AD001174E3 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879AAF191C0DE3AD001174E3 /* SplashViewController.m */; };
+		87D932421C0D5D7F0019B98B /* ImageLabelingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D932411C0D5D7F0019B98B /* ImageLabelingViewController.m */; };
+		87DE5A161C0CA7E200699E94 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DE5A151C0CA7E200699E94 /* LoginViewController.m */; };
+		87DE5A191C0CA83A00699E94 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DE5A181C0CA83A00699E94 /* TableViewController.m */; };
+		87FCB6341C077E1300150178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FCB6331C077E1300150178 /* main.m */; };
+		87FCB6371C077E1300150178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FCB6361C077E1300150178 /* AppDelegate.m */; };
+		87FCB63D1C077E1300150178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FCB63B1C077E1300150178 /* Main.storyboard */; };
+		87FCB63F1C077E1300150178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FCB63E1C077E1300150178 /* Assets.xcassets */; };
+		87FCB6421C077E1300150178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FCB6401C077E1300150178 /* LaunchScreen.storyboard */; };
+		87FCB64D1C077E1300150178 /* MTurkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FCB64C1C077E1300150178 /* MTurkTests.m */; };
+		87FCB6581C077E1300150178 /* MTurkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FCB6571C077E1300150178 /* MTurkUITests.m */; };
+		87FFE51A1C0EDEA30061DBC9 /* LocationTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FFE5191C0EDEA30061DBC9 /* LocationTrackViewController.m */; };
+		87FFE51C1C0EE0120061DBC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE51B1C0EE0120061DBC9 /* MapKit.framework */; };
+		87FFE51F1C0F049D0061DBC9 /* BitcoinLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FFE51E1C0F049C0061DBC9 /* BitcoinLinkViewController.m */; };
+		DA8DDE595592276681961F5F /* libPods-MTurk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B749512CA6181B4D68EB4944 /* libPods-MTurk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87FCB6491C077E1300150178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FCB6271C077E1300150178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FCB62E1C077E1300150178;
+			remoteInfo = MTurk;
+		};
+		87FCB6541C077E1300150178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FCB6271C077E1300150178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FCB62E1C077E1300150178;
+			remoteInfo = MTurk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34E45278C263F563A9727937 /* Pods-MTurk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTurk.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTurk/Pods-MTurk.release.xcconfig"; sourceTree = "<group>"; };
+		87234D8D1C0D4C8C004AB7D7 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		87234D8E1C0D4C8C004AB7D7 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		873865B51C0CEFCB006A69F4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		873865B61C0CEFCB006A69F4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		873DFE071C139029007D0216 /* mturk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mturk.jpg; sourceTree = "<group>"; };
+		873F93CB1C07820C00CA201E /* CMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDataManager.h; sourceTree = "<group>"; };
+		873F93CC1C07820C00CA201E /* CMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDataManager.m; sourceTree = "<group>"; };
+		879AAF181C0DE3AD001174E3 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		879AAF191C0DE3AD001174E3 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		87D932401C0D5D7F0019B98B /* ImageLabelingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLabelingViewController.h; sourceTree = "<group>"; };
+		87D932411C0D5D7F0019B98B /* ImageLabelingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLabelingViewController.m; sourceTree = "<group>"; };
+		87DE5A141C0CA7E200699E94 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		87DE5A151C0CA7E200699E94 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		87DE5A171C0CA83A00699E94 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		87DE5A181C0CA83A00699E94 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		87FCB62F1C077E1300150178 /* MTurk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTurk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FCB6331C077E1300150178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87FCB6351C077E1300150178 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87FCB6361C077E1300150178 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87FCB63C1C077E1300150178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87FCB63E1C077E1300150178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87FCB6411C077E1300150178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87FCB6431C077E1300150178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FCB6481C077E1300150178 /* MTurkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTurkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FCB64C1C077E1300150178 /* MTurkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTurkTests.m; sourceTree = "<group>"; };
+		87FCB64E1C077E1300150178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FCB6531C077E1300150178 /* MTurkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTurkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FCB6571C077E1300150178 /* MTurkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTurkUITests.m; sourceTree = "<group>"; };
+		87FCB6591C077E1300150178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FFE5181C0EDEA30061DBC9 /* LocationTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTrackViewController.h; sourceTree = "<group>"; };
+		87FFE5191C0EDEA30061DBC9 /* LocationTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTrackViewController.m; sourceTree = "<group>"; };
+		87FFE51B1C0EE0120061DBC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		87FFE51D1C0F049C0061DBC9 /* BitcoinLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitcoinLinkViewController.h; sourceTree = "<group>"; };
+		87FFE51E1C0F049C0061DBC9 /* BitcoinLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitcoinLinkViewController.m; sourceTree = "<group>"; };
+		B749512CA6181B4D68EB4944 /* libPods-MTurk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTurk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE008E040F1651783A11355 /* Pods-MTurk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTurk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTurk/Pods-MTurk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FCB62C1C077E1300150178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FFE51C1C0EE0120061DBC9 /* MapKit.framework in Frameworks */,
+				DA8DDE595592276681961F5F /* libPods-MTurk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCB6451C077E1300150178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCB6501C077E1300150178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5204C07AB40954D7EA576FC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FFE51B1C0EE0120061DBC9 /* MapKit.framework */,
+				B749512CA6181B4D68EB4944 /* libPods-MTurk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78E49C91B37A49B52E1356F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEE008E040F1651783A11355 /* Pods-MTurk.debug.xcconfig */,
+				34E45278C263F563A9727937 /* Pods-MTurk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87FCB6261C077E1300150178 = {
+			isa = PBXGroup;
+			children = (
+				87FCB6311C077E1300150178 /* MTurk */,
+				87FCB64B1C077E1300150178 /* MTurkTests */,
+				87FCB6561C077E1300150178 /* MTurkUITests */,
+				87FCB6301C077E1300150178 /* Products */,
+				78E49C91B37A49B52E1356F5 /* Pods */,
+				5204C07AB40954D7EA576FC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87FCB6301C077E1300150178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87FCB62F1C077E1300150178 /* MTurk.app */,
+				87FCB6481C077E1300150178 /* MTurkTests.xctest */,
+				87FCB6531C077E1300150178 /* MTurkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FCB6311C077E1300150178 /* MTurk */ = {
+			isa = PBXGroup;
+			children = (
+				873F93CB1C07820C00CA201E /* CMDataManager.h */,
+				873F93CC1C07820C00CA201E /* CMDataManager.m */,
+				87FCB6351C077E1300150178 /* AppDelegate.h */,
+				87FCB6361C077E1300150178 /* AppDelegate.m */,
+				879AAF181C0DE3AD001174E3 /* SplashViewController.h */,
+				879AAF191C0DE3AD001174E3 /* SplashViewController.m */,
+				87DE5A171C0CA83A00699E94 /* TableViewController.h */,
+				87DE5A181C0CA83A00699E94 /* TableViewController.m */,
+				87234D8D1C0D4C8C004AB7D7 /* SearchTableViewController.h */,
+				87234D8E1C0D4C8C004AB7D7 /* SearchTableViewController.m */,
+				87DE5A141C0CA7E200699E94 /* LoginViewController.h */,
+				87DE5A151C0CA7E200699E94 /* LoginViewController.m */,
+				873865B51C0CEFCB006A69F4 /* SettingsViewController.h */,
+				873865B61C0CEFCB006A69F4 /* SettingsViewController.m */,
+				87D932401C0D5D7F0019B98B /* ImageLabelingViewController.h */,
+				87D932411C0D5D7F0019B98B /* ImageLabelingViewController.m */,
+				87FFE5181C0EDEA30061DBC9 /* LocationTrackViewController.h */,
+				87FFE5191C0EDEA30061DBC9 /* LocationTrackViewController.m */,
+				87FFE51D1C0F049C0061DBC9 /* BitcoinLinkViewController.h */,
+				87FFE51E1C0F049C0061DBC9 /* BitcoinLinkViewController.m */,
+				87FCB63B1C077E1300150178 /* Main.storyboard */,
+				87FCB63E1C077E1300150178 /* Assets.xcassets */,
+				87FCB6401C077E1300150178 /* LaunchScreen.storyboard */,
+				87FCB6431C077E1300150178 /* Info.plist */,
+				87FCB6321C077E1300150178 /* Supporting Files */,
+			);
+			path = MTurk;
+			sourceTree = "<group>";
+		};
+		87FCB6321C077E1300150178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873DFE071C139029007D0216 /* mturk.jpg */,
+				87FCB6331C077E1300150178 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FCB64B1C077E1300150178 /* MTurkTests */ = {
+			isa = PBXGroup;
+			children = (
+				87FCB64C1C077E1300150178 /* MTurkTests.m */,
+				87FCB64E1C077E1300150178 /* Info.plist */,
+			);
+			path = MTurkTests;
+			sourceTree = "<group>";
+		};
+		87FCB6561C077E1300150178 /* MTurkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87FCB6571C077E1300150178 /* MTurkUITests.m */,
+				87FCB6591C077E1300150178 /* Info.plist */,
+			);
+			path = MTurkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87FCB62E1C077E1300150178 /* MTurk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCB65C1C077E1300150178 /* Build configuration list for PBXNativeTarget "MTurk" */;
+			buildPhases = (
+				27F1CCCBD5C040697BD47DF4 /* Check Pods Manifest.lock */,
+				87FCB62B1C077E1300150178 /* Sources */,
+				87FCB62C1C077E1300150178 /* Frameworks */,
+				87FCB62D1C077E1300150178 /* Resources */,
+				0CAB68754BFA0A484A6B5EB5 /* Embed Pods Frameworks */,
+				533FBEAD0961D572E96E830D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTurk;
+			productName = MTurk;
+			productReference = 87FCB62F1C077E1300150178 /* MTurk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87FCB6471C077E1300150178 /* MTurkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCB65F1C077E1300150178 /* Build configuration list for PBXNativeTarget "MTurkTests" */;
+			buildPhases = (
+				87FCB6441C077E1300150178 /* Sources */,
+				87FCB6451C077E1300150178 /* Frameworks */,
+				87FCB6461C077E1300150178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FCB64A1C077E1300150178 /* PBXTargetDependency */,
+			);
+			name = MTurkTests;
+			productName = MTurkTests;
+			productReference = 87FCB6481C077E1300150178 /* MTurkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87FCB6521C077E1300150178 /* MTurkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCB6621C077E1300150178 /* Build configuration list for PBXNativeTarget "MTurkUITests" */;
+			buildPhases = (
+				87FCB64F1C077E1300150178 /* Sources */,
+				87FCB6501C077E1300150178 /* Frameworks */,
+				87FCB6511C077E1300150178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FCB6551C077E1300150178 /* PBXTargetDependency */,
+			);
+			name = MTurkUITests;
+			productName = MTurkUITests;
+			productReference = 87FCB6531C077E1300150178 /* MTurkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FCB6271C077E1300150178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Connor Mounts";
+				TargetAttributes = {
+					87FCB62E1C077E1300150178 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2DJCWA8GT3;
+					};
+					87FCB6471C077E1300150178 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 87FCB62E1C077E1300150178;
+					};
+					87FCB6521C077E1300150178 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 87FCB62E1C077E1300150178;
+					};
+				};
+			};
+			buildConfigurationList = 87FCB62A1C077E1300150178 /* Build configuration list for PBXProject "MTurk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87FCB6261C077E1300150178;
+			productRefGroup = 87FCB6301C077E1300150178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87FCB62E1C077E1300150178 /* MTurk */,
+				87FCB6471C077E1300150178 /* MTurkTests */,
+				87FCB6521C077E1300150178 /* MTurkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87FCB62D1C077E1300150178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCB6421C077E1300150178 /* LaunchScreen.storyboard in Resources */,
+				87FCB63F1C077E1300150178 /* Assets.xcassets in Resources */,
+				87FCB63D1C077E1300150178 /* Main.storyboard in Resources */,
+				873DFE081C139029007D0216 /* mturk.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCB6461C077E1300150178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCB6511C077E1300150178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CAB68754BFA0A484A6B5EB5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTurk/Pods-MTurk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27F1CCCBD5C040697BD47DF4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		533FBEAD0961D572E96E830D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTurk/Pods-MTurk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FCB62B1C077E1300150178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D932421C0D5D7F0019B98B /* ImageLabelingViewController.m in Sources */,
+				87234D8F1C0D4C8C004AB7D7 /* SearchTableViewController.m in Sources */,
+				87DE5A191C0CA83A00699E94 /* TableViewController.m in Sources */,
+				87FCB6371C077E1300150178 /* AppDelegate.m in Sources */,
+				87FCB6341C077E1300150178 /* main.m in Sources */,
+				879AAF1A1C0DE3AD001174E3 /* SplashViewController.m in Sources */,
+				873865B71C0CEFCB006A69F4 /* SettingsViewController.m in Sources */,
+				87FFE51F1C0F049D0061DBC9 /* BitcoinLinkViewController.m in Sources */,
+				873F93CD1C07820C00CA201E /* CMDataManager.m in Sources */,
+				87DE5A161C0CA7E200699E94 /* LoginViewController.m in Sources */,
+				87FFE51A1C0EDEA30061DBC9 /* LocationTrackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCB6441C077E1300150178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCB64D1C077E1300150178 /* MTurkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCB64F1C077E1300150178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCB6581C077E1300150178 /* MTurkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87FCB64A1C077E1300150178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FCB62E1C077E1300150178 /* MTurk */;
+			targetProxy = 87FCB6491C077E1300150178 /* PBXContainerItemProxy */;
+		};
+		87FCB6551C077E1300150178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FCB62E1C077E1300150178 /* MTurk */;
+			targetProxy = 87FCB6541C077E1300150178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87FCB63B1C077E1300150178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FCB63C1C077E1300150178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87FCB6401C077E1300150178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FCB6411C077E1300150178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87FCB65A1C077E1300150178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87FCB65B1C077E1300150178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87FCB65D1C077E1300150178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE008E040F1651783A11355 /* Pods-MTurk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTurk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmounts.MTurk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		87FCB65E1C077E1300150178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E45278C263F563A9727937 /* Pods-MTurk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTurk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmounts.MTurk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		87FCB6601C077E1300150178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTurkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmounts.MTurkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTurk.app/MTurk";
+			};
+			name = Debug;
+		};
+		87FCB6611C077E1300150178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTurkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmounts.MTurkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTurk.app/MTurk";
+			};
+			name = Release;
+		};
+		87FCB6631C077E1300150178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTurkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmounts.MTurkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTurk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		87FCB6641C077E1300150178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTurkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmounts.MTurkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTurk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87FCB62A1C077E1300150178 /* Build configuration list for PBXProject "MTurk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCB65A1C077E1300150178 /* Debug */,
+				87FCB65B1C077E1300150178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCB65C1C077E1300150178 /* Build configuration list for PBXNativeTarget "MTurk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCB65D1C077E1300150178 /* Debug */,
+				87FCB65E1C077E1300150178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCB65F1C077E1300150178 /* Build configuration list for PBXNativeTarget "MTurkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCB6601C077E1300150178 /* Debug */,
+				87FCB6611C077E1300150178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCB6621C077E1300150178 /* Build configuration list for PBXNativeTarget "MTurkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCB6631C077E1300150178 /* Debug */,
+				87FCB6641C077E1300150178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FCB6271C077E1300150178 /* Project object */;
+}
