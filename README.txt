@@ -1,5 +1,7 @@
 README
 
+Note: Open the project .xcworkspace file to run the application, the .xcodeproj file will result in the following error as the project uses Pods "linker command failed with exit code 1"
+
 MTurk is a mobile turking application that enables users to be paid for two different
 types of tasks. Taking photos and allowing location to be tracked.
 
